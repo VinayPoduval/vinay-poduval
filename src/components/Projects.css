@@ -53,6 +53,7 @@ button {
     background: black;
     color: white;
     border-radius: 16px;
+    outline: none;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.5);
 }
 
@@ -62,4 +63,9 @@ button:hover {
     background: white;
     color: black;
     border: 2px solid black;
+}
+
+button:active {
+    background: black;
+    color: white;
 }
