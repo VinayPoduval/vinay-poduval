@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import Projects from './components/Projects.jsx';
 import Resume from './components/Resume.jsx';
+import Contact from './components/Contact.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/resume" exact component={Resume} />
+          <Route path="/contact" exact component={Contact} />
         </Switch>
       </Router>
     </>

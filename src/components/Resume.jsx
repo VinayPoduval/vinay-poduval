@@ -3,7 +3,7 @@ import './Resume.css';
 
 function Resume() {
     const downloadFile = () => {
-        window.location.href = 'https://githu';
+        window.location.href = 'https://github.com/VinayPoduval/vinay-poduval/raw/master/public/assets/Vinay_Poduval.pdf';
     }
     return(
         <>
