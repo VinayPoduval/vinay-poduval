@@ -86,6 +86,7 @@ h1 {
     }
 
     .abt-desc {
+        width: auto;
         font-size: 20px;
         text-align: center;
     }

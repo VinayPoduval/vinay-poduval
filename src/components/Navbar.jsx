@@ -21,7 +21,6 @@ function Navbar() {
                         onClick={closeMobileMenu}
                     >
                         VP
-                        <i className="fab fa-vimeo-v" />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times': 'fas fa-bars'} />
