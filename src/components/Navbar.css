@@ -84,6 +84,10 @@
     .NavbarItems {
       position: relative;
     }
+
+    .nav-item {
+      height: 54px;
+    }
   
     .nav-menu {
       display: flex;

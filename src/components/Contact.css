@@ -3,3 +3,35 @@
     font-size: 32px;
     text-align: center;
 }
+
+.contact-container {
+    margin-top: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-img {
+    margin: 48px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .p-contact {
+        margin-top: 54px;
+    }
+    .contact-container {
+        height: 48vh;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .contact-img {
+        margin: 36px;
+        height: 70px;
+        width: 70px;
+    }
+}

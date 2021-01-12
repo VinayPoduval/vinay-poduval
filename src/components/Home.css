@@ -13,7 +13,7 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-img {
+.me-img {
     height: 250px;
     width: 250px;
     border-radius: 50%;
@@ -40,7 +40,7 @@ img {
         margin-top: 24px;
     }
 
-    img {
+    .me-img {
         height: 300px;
         width: 300px;
     }
@@ -80,7 +80,7 @@ img {
         margin-top: 16px;
     }
 
-    img {
+    .me-img {
         height: 200px;
         width: 200px;
     }
@@ -113,7 +113,7 @@ img {
         margin-top: 5px;
     }
 
-    img {
+    .me-img {
         height: 200px;
         width: 200px;
     }

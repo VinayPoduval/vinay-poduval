@@ -9,7 +9,7 @@ function Home() {
             <div className="main-container">
                 <div className="content">
                     <div className="content-item">
-                        <img src="/images/me.jpg" alt="Vinay"/>
+                        <img className="me-img" src="/images/me.jpg" alt="Vinay"/>
                     </div>
                     <div className="content-item">
                         <p className="abt-desc">Hi, I am Vinay Poduval. I am a Computer Science Engineering Graduate
