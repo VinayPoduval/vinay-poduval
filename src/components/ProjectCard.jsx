@@ -7,7 +7,7 @@ const ProjectCard = ({project}) => {
             <h3>{project.title}</h3>
             <div className="card-content">
                     <p className="project-desc">{project.description}</p><br/><br/>
-                    <p className="project-desc">Tools: {project.tools}</p><br/>
+                    <p className="project-desc">Used: {project.tools}</p><br/>
                     <button onClick={()=>window.open(project.link, '_blank')}>View Project</button>
             </div>
         </div>

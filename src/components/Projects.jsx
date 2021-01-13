@@ -23,6 +23,11 @@ function Projects() {
             link: 'https://github.com/VinayPoduval/mini-youtube-player'
         },
         {
+            title: 'Language Translator',
+            description: 'A web app in ReactJS using the Google Translate API to translate text from one language to another(German, French, Spanish, Russian, Hindi).',
+            tools: 'HTML5, CSS3, ReactJS, Javascript'
+        },
+        {
             title: 'Item Catalog',
             description: 'A web app to demnostrate CRUD operations. Used Google OAuth for users to sign-in to the application.',
             tools:'Python, PostgreSQL, HTML, CSS3',
