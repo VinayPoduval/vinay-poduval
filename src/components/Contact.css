@@ -19,6 +19,11 @@
     border-radius: 50px;
 }
 
+.contact-img:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
 @media screen and (min-width: 768px) {
     .p-contact {
         margin-top: 54px;
