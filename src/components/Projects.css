@@ -11,39 +11,36 @@
     margin: 16px;
     height: 350px;
     width: 250px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 #353535;
 }
 .card:hover {
     transform: scale(1.1);
     transition: 0.4s;
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 6px 10px 0 #353535;
 }
 
 .card-content {
     display: flex;
     flex-direction: column;
     margin-top: 16px;
-    height: 100%;
+    height: auto;
 }
 .project-desc {
     width: auto;
     word-wrap: break-word;
     margin: 10px;
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1 {
     text-align: center;
     margin-top: 24px;
-    font-size: 64px;    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;    
 }
 h3 {
     margin-top: 10px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button {
@@ -51,22 +48,22 @@ button {
     height: 32px;
     align-self: center;
     border: transparent;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     border-radius: 16px;
     outline: none;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 2px 2px 0 #353535;
 }
 
 button:hover {
     transform: scale(1.1);
     transition: 0.3s;
-    background: white;
-    color: black;
-    border: 2px solid black;
+    background: black;
+    color: white;
+    border: 2px solid white;
 }
 
 button:active {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
 }

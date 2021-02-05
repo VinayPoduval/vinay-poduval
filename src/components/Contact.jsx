@@ -10,7 +10,8 @@ function Contact() {
                 <a 
                     href="https://github.com/VinayPoduval" 
                     target="_blank"
-                    rel="noreferrer"    
+                    rel="noreferrer"
+                    className="a-contact"  
                 >
                     <img className="contact-img" src="/images/git.jpg" alt="Git"/>
                 </a>
@@ -18,13 +19,20 @@ function Contact() {
                     href="https://www.linkedin.com/in/vinay-poduval/" 
                     target="_blank"
                     rel="noreferrer"
+                    className="a-contact"
                 >
                     <img className="contact-img" src="/images/linkedin.png" alt="Linkedin"/>
                 </a>
-                <a href="mailto:vinaypoduval@hotmail.com">
+                <a 
+                    href="mailto:vinaypoduval@hotmail.com"
+                    className="a-contact"
+                >
                     <img className="contact-img" src="/images/mail.jpg" alt="Mail"/>
                 </a>
-                <a href="tel:+919168902209">
+                <a
+                    className="a-contact"
+                    href="tel:+919168902209"
+                >
                     <img className="contact-img" src="/images/phone.jpg" alt="Phone"/>
                 </a> 
             </div>

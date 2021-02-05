@@ -12,6 +12,12 @@
     align-items: center;
 }
 
+.a-contact {
+    border-radius: 75%;
+    background: white;
+    margin: 20px;
+}
+
 .contact-img {
     margin: 48px;
     height: 100px;
